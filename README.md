@@ -1,4 +1,4 @@
-# Async-Race
+# Async Race
 
 [Учебный проект](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md) в рамках курса FrontendJS от RS School.
 
