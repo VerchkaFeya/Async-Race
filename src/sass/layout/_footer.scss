@@ -1,0 +1,33 @@
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+}
+
+.footer__item {
+
+	font-size: 1.2rem;
+	line-height: 100%;
+	transition: 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+	&:not(:last-child) {
+
+		&::after {
+			content: '';
+			display: inline-block;
+			width: 10px;
+			margin-right: 10px;
+			height: 20px;
+			border-right: 1px solid $color-text;
+		}
+
+		&:hover {
+			filter: invert(93%) sepia(3%) saturate(811%) hue-rotate(198deg) brightness(90%) contrast(87%);
+		}
+	}
+}

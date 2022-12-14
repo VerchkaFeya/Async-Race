@@ -1,0 +1,42 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0px;
+}
+
+.header__title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 3.2rem;
+	line-height: 100%;
+
+	@media (max-width: 650px) {
+		font-size: 2rem;
+	}
+}
+
+.header-button {
+	padding: 3px 10px;
+	font-weight: 400;
+	font-size: 2.2rem;
+	line-height: 100%;
+	margin-left: 10px;
+	border-bottom: 1px solid $color-body;
+	color: $color-text;
+	transition: 0.3s;
+	text-transform: uppercase;
+
+	&:hover {
+		border-bottom: 1px solid $color-text;
+	}
+
+	&.active {
+		font-weight: 700;
+		cursor: default;
+
+		&:hover {
+			border-bottom: 1px solid $color-body;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+// Abstract
+@import "./sass/abstract/normilize";
+@import "./sass/abstract/constants";
+
+// Base
+@import "./sass/base/base";
+
+// Components
+@import "./sass/components/car-control";
+@import "./sass/components/line";
+@import "./sass/components/pagintaion";
+@import "./sass/components/table.scss";
+
+// Layouts
+@import "./sass/layout/header";
+@import "./sass/layout/garage";
+@import "./sass/layout/controls";
+@import "./sass/layout/footer";

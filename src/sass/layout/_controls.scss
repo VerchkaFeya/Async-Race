@@ -1,0 +1,71 @@
+.controls {
+	display: flex;
+	gap: 5%;
+}
+
+
+.race-button {
+	width: 130px;
+	height: 40px;
+	color: $color-inputs-placeholders;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	line-height: 150%;
+	padding: 5px;
+	border-radius: 10px;
+	border: 1px solid $color-inputs-placeholders;
+	font-weight: 500;
+
+	&.active {
+		background-color: $color-brand;
+		border-color: $color-brand;
+		color: $color-dark-grey;
+	}
+
+}
+.race-buttons-container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+	@media (max-width: 750px) {
+	align-self: flex-end;
+	}
+}
+
+.wrapper_controls {
+	position: relative;
+	margin-top: 20px;
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: space-between;
+
+	@media (max-width: 750px) {
+		flex-direction: column;
+	}
+
+}
+
+.total-amount {
+	position: absolute;
+	bottom: 0;
+	color: $color-garage-background;
+	font-size: 50px;
+	line-height: 100%;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: -10px;
+
+	@media (max-width: 750px) {
+		font-size: 70px;
+	}
+}
+
+.total-amount-winners {
+	color: $color-garage-background;
+	font-size: 50px;
+	line-height: 100%;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: -10px;
+}

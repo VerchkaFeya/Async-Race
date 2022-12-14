@@ -1,0 +1,51 @@
+.car-control {
+	width: 230px;
+	opacity: 0.5;
+
+	&.active {
+		opacity: 1;
+	}
+
+	.input-name {
+		width: 100%;
+		color: $color-text;
+		font-size: 1rem;
+		padding: 10px;
+		border: 1px solid $color-inputs;
+		border-radius: 5px;
+	}
+}
+
+.car-control__color {
+	color: $color-inputs;
+	display: flex;
+	gap: 10px;
+}
+
+.car-control__color-and-button-container {
+	font-size: 1.2rem;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.control-button {
+	text-transform: uppercase;
+	font-size: 1rem;
+	line-height: 150%;
+	background-color: $color-create-button;
+	padding: 10px;
+	border: 1px solid $color-inputs;
+	color: $color-text;
+	border-radius: 5px;
+
+	&_generate {
+		margin-right: auto;
+		margin-left: 3%;
+		height: 50px;
+	}
+}
+
+.input-color {
+	cursor: pointer;
+}

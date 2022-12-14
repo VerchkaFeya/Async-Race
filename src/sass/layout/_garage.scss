@@ -1,0 +1,17 @@
+.garage {
+	background-color: $color-garage-background;
+
+	.wrapper {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.garage-wrapper {
+	box-sizing: border-box;
+	max-width: 1400px;
+	background-image: url('./assets/img/line-background.png');
+	background-position: top 2px right 0px;
+	height: 100%;
+	margin:  0 auto;
+}
